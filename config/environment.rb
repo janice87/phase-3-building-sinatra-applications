@@ -8,3 +8,5 @@ Bundler.require(:default, ENV['RACK_ENV'])
 
 # Require in all files in 'app' directory
 require_all 'app'
+
+# environment file does the work of require-ing all our gems as well as all the files in the app folder
